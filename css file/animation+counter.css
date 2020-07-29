@@ -1,0 +1,25 @@
+.stat{
+    background-color:  none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background-attachment: fixed;
+    margin-top:none;
+  }
+  .stat i {
+    font-size: 50px;
+  }
+  .stat-items h2{
+font-weight: bold;
+font-size: 42px;
+color: darkorange;
+  }
+  .stat p {
+    font-weight: bold;
+    letter-spacing: 1px;
+
+  }
+   #azxc{
+    width: 600px;
+    height: 500px;
+  }

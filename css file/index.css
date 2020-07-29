@@ -1,0 +1,182 @@
+#space{
+  color:#ffc107;
+}
+#tt{
+  color:#ffc107;
+  padding-left:10px;
+}
+#navbarDropdown{
+  color:none;
+}
+#title{
+  background-color:#ffc107;
+}
+#go{
+padding:5px;
+}
+button {
+  background-color: none;
+  color: white;
+  cursor: pointer;
+  width: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 200px !important;
+}
+
+@import "lesshat";
+
+// multi level menu + auto open menu
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown.open > .dropdown-menu, .dropdown:hover > .dropdown-menu {
+  visibility:visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.dropdown-menu {
+  visibility:hidden;
+  display:block;
+  opacity:0;
+  transition:visibility 0s linear 0.3s, opacity 0.3s linear;
+
+  .dropdown-menu {
+    top : -8px;
+    left: 100%;
+  }
+
+  .dropdown>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #999;
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+}
+#h1
+{
+  text-align: center;
+}
+#h11
+{
+  padding-left: 30px;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 50px;
+
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color:#2196f3;
+}
+#aqw{
+  text-align: center;
+}
+#aqw12{
+  text-align: center;
+}
+#aqw3{
+  font-size: 30px;
+}
+#aqs{
+  color: white;
+}
+#s{
+         
+             background: url("header_images14.jpg") center center / cover no-repeat; 
+      }
+      #container1234{
+padding-left: 300px;
+text-decoration: none;
+color: white;
+      }
+       #container1234:hover{
+        color: #2196f3;
+       }
+      .container123
+      {
+        text-align: center;
+        background-color: #000066;
+        padding-bottom: 15px;
+        padding-top:15px;
+      }
+      #qwer{
+        background-color: #003366;
+        color: white;
+         text-decoration: none;
+      }
+      #qwer4{
+        height: 30px;
+      }
+      #qwer5{
+        padding-left: none;
+      }
+      #qwer1{
+        background-color:  #003366;
+        color: white;
+        text-decoration: none;
+      }
+      #qwer2{
+        color:white;
+         text-decoration: none;
+      }
+      #qwer2q1
+        {
+        color:white;
+         text-decoration: none;
+         background-color:#003366; 
+      }
+       #qwer2q1:hover
+        {
+         color: #2196f3;
+      }
+
+       #qwer6{
+        color:white;
+         text-decoration: none;
+      }
+      #qwer3{
+        padding-top: 8px;
+        color:white;
+         text-decoration: none;
+         padding-right: 15px;
+      }
+#qwer3:hover{
+  color: #2196f3;
+}
+
+      #qwer2:hover{
+        color: #2196f3;
+      }
+       #qwer6:hover{
+        color: #2196f3;
+      }
+
+         #s{
+         
+             background: url("header_images14.jpg") center center / cover no-repeat; 
+      }
